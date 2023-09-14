@@ -1,0 +1,7 @@
+footer {
+    background-color: var(--section-even-bg-color);
+    color: var(--footer-text-color);
+    text-align: center;
+    padding: 3rem;
+    width: 100%;
+}

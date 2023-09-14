@@ -1,0 +1,40 @@
+:root {
+  --primary-bg-color: #fff;
+  --primary-text-color: #000;
+  --primary-accent-color: #8B0000;
+
+  --section-even-bg-color: #fff;
+  --section-odd-bg-color: #EDF2F8; 
+
+  --header-bg-color: var(--section-even-bg-color);
+
+  --card-bg-color-1: var(--section-even-bg-color);
+  --card-bg-color-2: var(--section-odd-bg-color);
+
+  --button-bg-color: var(--section-even-bg-color);
+
+  --footer-text-color: #bab6b6;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 1rem;
+}
+
+li {
+  list-style-type: none;
+}
